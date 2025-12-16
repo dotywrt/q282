@@ -1,7 +1,7 @@
 # Copyright (C) 2023 Siriling <siriling@qq.com>
 # This is free software, licensed under the GNU General Public License v3.
 
-include $(TOPDIR)/rules.mk
+include ../../rules.mk
 
 PKG_NAME:=luci-app-qmodem-sms
 LUCI_TITLE:=Luci qwrt modem sms support
@@ -13,6 +13,6 @@ PKG_LINCESE_FILES:=LICENSE
 PKG_MAINTAINER:=Tom <fjrcn@outlook.com>
 LUCI_DEPENDS:=+luci-app-qmodem
 
-include $(TOPDIR)/feeds/luci/luci.mk
+include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
