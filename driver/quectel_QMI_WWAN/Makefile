@@ -5,7 +5,7 @@
 # See /LICENSE for more information.
 #
 
-include $(TOPDIR)/rules.mk
+include ../../rules.mk
 
 PKG_NAME:=qmi_wwan_q
 PKG_VERSION:=1.2.9
