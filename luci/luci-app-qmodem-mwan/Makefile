@@ -1,7 +1,7 @@
 # Copyright (C) 2023 Siriling <siriling@qq.com>
 # This is free software, licensed under the GNU General Public License v3.
 
-include $(TOPDIR)/rules.mk
+include ../../rules.mk
 
 PKG_NAME:=luci-app-qmodem-mwan
 LUCI_TITLE:=Luci qwrt modem mwan support
@@ -17,6 +17,6 @@ define Package/luci-app-qmodem-mwan/conffiles
 /etc/config/modem_mwan
 endef
 
-include $(TOPDIR)/feeds/luci/luci.mk
+include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
