@@ -1,7 +1,7 @@
 # Copyright (C) 2024 Tom <fjrcn@outlook.com>
 # This is free software, licensed under the GNU General Public License v3.
 
-include $(TOPDIR)/rules.mk
+include ../../rules.mk
 
 PKG_NAME:=luci-app-qmodem
 LUCI_TITLE:=LuCI support for QWRT Modem
@@ -80,6 +80,6 @@ endchoice
 		default n
 endef
 
-include $(TOPDIR)/feeds/luci/luci.mk
+include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
